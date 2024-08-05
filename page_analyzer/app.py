@@ -5,6 +5,9 @@ import os
 from dotenv import load_dotenv
 import psycopg2
 import requests
+from .url import normalize_url, validate_url
+from datetime import datetime
+
 
 @app.route('/')
 def index() -> str:
