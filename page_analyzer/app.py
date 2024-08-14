@@ -8,7 +8,6 @@ import requests
 from .url import normalize_url, validate_url
 from datetime import datetime
 
-
 @app.route('/')
 def index() -> str:
     return ('index.html')
